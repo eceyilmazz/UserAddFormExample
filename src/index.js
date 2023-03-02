@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { UserProvider } from './Context'; // default olarak export edilmediği için süslü parantez içinde
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+
+  // </React.StrictMode>
+  <UserProvider>
     <App />
-  </React.StrictMode>
+
+  </UserProvider>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

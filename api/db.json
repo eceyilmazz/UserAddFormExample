@@ -1,0 +1,18 @@
+{
+
+
+    "users" : [
+        {
+            "id" : "unique-1",
+            "name" : "Gözde Tepeli",
+            "salary" : "18000",
+            "department" : "IT"
+          },
+          {
+            "id" : "unique-2",
+            "name" : "Can Bozok",
+            "salary" : "6500",
+            "department" : "Pazarlama"
+          }
+    ]
+}
